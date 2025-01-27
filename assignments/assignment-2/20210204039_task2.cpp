@@ -1,3 +1,7 @@
+/*
+    Question:
+    Write a code to implement the Shortest Job First scheduling algorithm and calculate average turnaround time, waiting time and response time of the scheduled processes. Your code must generate a gantt chart as well.
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
