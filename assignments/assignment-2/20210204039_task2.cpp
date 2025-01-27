@@ -108,3 +108,22 @@ int main() {
 
     return 0;
 }
+
+/*
+    Input:
+        Enter number of processes: 4
+        Enter arrival and CPU time for process 1: 0 6
+        Enter arrival and CPU time for process 2: 1 4
+        Enter arrival and CPU time for process 3: 2 2
+        Enter arrival and CPU time for process 4: 3 3
+    Output:
+        Gantt Chart:
+        [P1 | 0-6] [P3 | 6-8] [P4 | 8-11] [P2 | 11-15] 
+
+        Average Waiting Time: 4.75
+        Average Turnaround Time: 8.5
+        Average Response Time: 4.75
+
+        Press any key to continue...
+    
+*/
