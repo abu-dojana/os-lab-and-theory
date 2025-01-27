@@ -162,3 +162,26 @@ int main() {
     [P5 | 37-38]
     
 */
+
+/*  Input:
+    Enter number of processes: 7
+    Enter time quantum: 3
+    Enter arrival and CPU time for process 1: 0 6
+    Enter arrival and CPU time for process 2: 2 6
+    Enter arrival and CPU time for process 3: 5 7
+    Enter arrival and CPU time for process 4: 6 6
+    Enter arrival and CPU time for process 5: 8 7
+    Enter arrival and CPU time for process 6: 18 3
+    Enter arrival and CPU time for process 7: 22 3
+    
+    Output:
+
+    Gantt Chart:
+    [P1 | 0-3] [P1 | 3-6] [P2 | 6-9] [P3 | 9-12] [P4 | 12-15] [P2 | 15-18] [P5 | 18-21] [P3 | 21-24] [P4 | 24-27] [P6 | 27-30] [P5 | 30-33] [P3 | 33-34] [P7 | 34-37] [P5 | 37-38] 
+
+    Average Waiting Time: 12.2857
+    Average Turnaround Time: 18.4286
+    Average Response Time: 6.42857
+
+    Press any key to continue...
+*/
